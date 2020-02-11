@@ -49,3 +49,47 @@ table {
 
 
 /* */
+section{
+    width: 100%;
+    margin: auto;
+}
+
+section .calculator-body{
+    width: 50%;
+    margin: 100px auto;
+    border: 3px solid #d3d3d3;
+    border-radius: 5px;
+}
+.calculator-body form{
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+section .calculator-body .display{
+    width: 100%;
+    padding: 15px 0;
+    background-color: #000;
+    opacity: 0.6;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.calculator-column{
+    width: 20%;
+    display: inline-block;
+    margin: 15px 8px;
+    padding: 20px 0;
+}
+.calculator-button input{ 
+    width:80%;
+    margin: 20px 0 0 20px;
+    padding: 20px 0;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: #000;
+    opacity: 0.6;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+}
