@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <section>
+        <div class="registration-card">
+            <h2>Registration</h2>
+            <form action="#" name="StudentRegistration" onsubmit="return validate();">
+                <label for="emailId">Email</label>
+                <input  autocomplete="off" autocomplete="off" "text" id="emailId" class="emailId">
+                <span id="emailIdError" class="error-message"></span>
+                
+                <label for="password">Password</label>
+                <input  autocomplete="off" type="password" id="password" class="password">
+                <span id="passwordError" class="error-message"></span>
+
+                <label for="confirmPassword">Confirm Password</label>
+                <input  autocomplete="off" type="password" id="confirmPassword" class="confirmPassword">
+                <span id="confirmPasswordError" class="error-message"></span>
+
+                <label for="firstName">First Name</label>
+                <input  autocomplete="off" type="text" id="firstName" class="firstName">
+                <span id="firstNameError" class="error-message"></span>
+
+                <label for="lastName">Last Name</label>
+                <input  autocomplete="off" type="text" id="lastName" class="lastName">
+                <span id="lastNameError" class="error-message"></span>
+
+                <label for="zipcode">Zipcode</label>
+                <input  autocomplete="off" type="text" id="zipcode" class="zipcode">
+
+                <div class="button-section">
+                    <button>Click Me!</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src='script.js'></script>
+</body>
+</html>
